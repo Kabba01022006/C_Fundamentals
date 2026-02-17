@@ -9,8 +9,8 @@ void greet()
 int main()
 {
     greet();   //calling a function
-    greet();
-    greet();
+    greet();   //calling a function
+    greet();   //calling a function
     return 0;   
 }
 
