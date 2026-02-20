@@ -1,0 +1,15 @@
+#include<stdio.h>
+void swap(int a[]){
+    int temp = a[0];
+    a[0] = a[1];
+    a[1] = temp;
+    return;
+}
+
+int main(){
+    int arr[2] = {2,9};
+    printf("%d %d\n",arr[0],arr[1]);  // should print 2 9
+    swap(arr);
+    printf("%d %d\n",arr[0],arr[1]);  // should print 9 2
+    return 0;
+}
