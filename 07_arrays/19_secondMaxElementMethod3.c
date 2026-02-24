@@ -8,14 +8,18 @@ int main(){
     int smax=INT_MIN;    // smax means second max
     for(int i=0;i<10;i++){
         if (max<arr[i]){
-            smax=max;
-            max=arr[i];
+            smax=max;   // smax is now previous max
+            max=arr[i]; // max is now a new max
         }
         else if (smax<arr[i] && max!=arr[i]){
             smax=arr[i];
         }
-    } 
+    }
     printf("%d\n",max);
-    printf("%d",smax);
+    if (smax == INT_MIN)
+    printf("No second maximum exists");
+    else
+    printf("%d", smax);
+
     return 0;
 }

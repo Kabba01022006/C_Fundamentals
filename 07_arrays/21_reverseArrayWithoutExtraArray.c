@@ -16,3 +16,4 @@ int main(){
     printf("%d ",arr[k]);
     return 0;
 }
+// can be done by for loop using for(int i=0,j=6 ; i<j ; i++,j--)
