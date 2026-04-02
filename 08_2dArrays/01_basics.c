@@ -4,7 +4,7 @@
 
 // datatype arrayname[rows][columns]
 
-#include<Stdio.h>
+#include<stdio.h>
 int main(){
     int arr[2][2];
     arr[0][0]=1;

@@ -5,7 +5,7 @@
 // 3. Offset Math: Address of arr[i] = BaseAddress + (i * 4 bytes).
 // 4. Fixed Size: Total bytes = array.length * 4 (for integers).
 
-#include<Stdio.h>
+#include<stdio.h>
 int main(){
     int arr[5] = {1,2,3,4,5};
     for(int i=0;i<5;i++){

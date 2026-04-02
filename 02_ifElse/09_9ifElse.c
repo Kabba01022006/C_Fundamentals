@@ -4,7 +4,7 @@
 
 // if (n%5==0 || n%3==0 && n%15!=0) --- this is wrong
 // if ((n%5==0 || n%3==0) && n%15!=0) --- this is right.
-
+#include<stdio.h>
 int main(){
     int n;
     printf("Enter the number : ");
