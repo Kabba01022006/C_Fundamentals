@@ -21,8 +21,9 @@ int main()
     float n;
     printf("Enter the number : ");
     scanf("%f",&n);
-    int a = (int)n;   //this is typecasting.
-    printf("%d",a);
+    int intPart = (int)n;   //this is typecasting.
+    float fracPart = n - intPart;
+    printf("%f",fracPart);
 }
 
 
