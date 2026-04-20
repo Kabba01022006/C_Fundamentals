@@ -41,5 +41,5 @@ int main(){
 int a = 19;
 for(int i=1;i<=10;i++){
     printf("%d\n",i*a);
-}
+    }
 }     //in this code we can change the value of a according to the table that we need 

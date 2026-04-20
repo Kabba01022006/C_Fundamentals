@@ -15,6 +15,7 @@ int main()
     }
     return 0;
 }
+// again using jmax = n + 1 - i is still the best approach.
 
 
 

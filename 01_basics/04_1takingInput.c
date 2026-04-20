@@ -13,3 +13,4 @@ int main()
 // int x ;
 // scanf("%d",&x); 
 // this basically means that take the input x and store it inside the memory location of x . 
+// if want the result to be up to 2 decimal places only, use %.2f

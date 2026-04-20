@@ -27,8 +27,8 @@ int main()
 
     for (int i=1;i<=n;i++)
     {
-        a=a+3;
         printf("%d\n",a);
+        a=a+3;
     }
     return 0;
 }

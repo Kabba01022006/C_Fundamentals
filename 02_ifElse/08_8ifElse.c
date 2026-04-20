@@ -25,13 +25,13 @@ int main()
         printf("These sides can form a triangle.\n");
         if (a==b && b==c && a==c) {
         printf("It is an equilateral triangle.");
-    }
-    else if (a!=b && a!=c && b!=c){
+        }
+        else if (a!=b && a!=c && b!=c){
         printf("It is a scalene triangle.");
-    }
-    else{
+        }
+        else{
         printf("It is an isoceles triangle.");
-    }
+        }
     }
     return 0;
     

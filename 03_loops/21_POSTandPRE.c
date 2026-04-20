@@ -1,15 +1,15 @@
-// #include<stdio.h>
-// int main()
-// {
-//     int x = 5;
-//     printf("%d\n",x);
-//     printf("%d\n",x++);
+#include<stdio.h>
+int main()
+{
+    int x = 5;
+    printf("%d\n",x);
+    printf("%d\n",x++);
 
-//     x = 5;
-//     printf("%d\n",x);
-//     printf("%d\n",++x);
-//     return 0;
-// }
+    x = 5;
+    printf("%d\n",x);
+    printf("%d\n",++x);
+    return 0;
+}
 
 
 // x++ is post-increment --> it means that first use and then increment.
@@ -47,16 +47,16 @@
 
 
 
-#include<stdio.h>
-int main()
-{
-    int x = 5;
-    int a= x++;
-    printf("%d\n",a);
+// #include<stdio.h>
+// int main()
+// {
+//     int x = 5;
+//     int a= x++;
+//     printf("%d\n",a);
 
-    x = 5;
-    int b=++x;
-    printf("%d\n",b);
+//     x = 5;
+//     int b=++x;
+//     printf("%d\n",b);
 
-    return 0;
-}
+//     return 0;
+// }

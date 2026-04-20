@@ -29,8 +29,8 @@ int main()
 
     for (int i=1;i<=n;i++)
     {
-        a=a+2;
         printf("%d\n",a);
+        a=a+2;
     }
     return 0;
 }
