@@ -1,5 +1,5 @@
 // pointers -> stores the address of a variable.
-#include<Stdio.h>
+#include<stdio.h>
 int main(){
     int a = 5;
     int b = 5;

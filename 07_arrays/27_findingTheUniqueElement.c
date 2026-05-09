@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<stdbool.h>
 int main(){
-    int arr[11] = {1,3,6,1,1,2,3};
+    int arr[11] = {1,3,6,1,1,2,3,6};
     for(int i=0;i<11;i++){
         bool flag = false;
         for(int j=i+1;j<11;j++){

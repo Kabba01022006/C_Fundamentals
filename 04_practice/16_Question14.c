@@ -12,7 +12,7 @@ int gcd(int x, int y){
         if(x%i==0 && y%i==0){
             hcf = i;
         }
-    }
+    } 
     //OR for(int i=min(x,y);i>=1;i--){  // ulta start kar rahe hai 
     //   if(x%i==0 && y%i==0){
     //       hcf = i;

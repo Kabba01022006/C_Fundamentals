@@ -7,7 +7,6 @@ int main(){
     int n3 = n1 + n2 ; 
     int arr3[n3];
 
-    int k = 0;
     for (int i = 0; i < n1; i++) {
         arr3[i] = arr1[i]; 
     }

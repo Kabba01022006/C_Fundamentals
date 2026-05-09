@@ -17,7 +17,7 @@ int main(){
     int n = 7; //size of array
     int k = 3;
     //expected output is : {5,6,7,1,2,3,4}
-    //first step : k=k%3 if k>n;
+    //first step : k=k%n if k>n;
     k=k%n;
     //first step is to reverse the full array.
     for(int i=0,j=n-1;i<j;i++,j--){
@@ -25,13 +25,13 @@ int main(){
         arr[i] = arr[j];
         arr[j] = temp;
     }
-    //second step is to reverse the array till k.
+    //second step is to reverse the array till k.  (0 < k)
     for(int i=0,j=k-1;i<j;i++,j--){
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
-    //last step is to reverse the rest of the array.
+    //last step is to reverse the rest of the array. (k,n-1)
     for(int i=k,j=n-1;i<j;i++,j--){
         int temp = arr[i];
         arr[i] = arr[j];
@@ -43,3 +43,9 @@ int main(){
 
     return 0;
 }
+
+//steps : 
+// if No.OfRotation > size of array, then Rotations = Rotations % sizeOfArray
+// now , reverse the whole array
+// then , reverse till 0 < k
+// then , reverse k < n-1
